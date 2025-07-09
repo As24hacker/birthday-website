@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday My Love 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="playMusic()">
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>🎉 Happy Birthday My Love 🎉</h1>
+    <img src="images/heart.gif" alt="Heart GIF" class="gif" />
+  </section>
+
+  <!-- Buttons to open each letter -->
+  <div id="letterButtons">
+    <button onclick="openLetter(1)">💌 Letter 1</button>
+    <button onclick="openLetter(2)">💌 Letter 2</button>
+    <button onclick="openLetter(3)">💌 Letter 3</button>
+    <button onclick="openLetter(4)">💌 Letter 4</button>
+    <button onclick="openLetter(5)">💌 Letter 5</button>
+    <button onclick="openLetter(6)">💌 Letter 6</button>
+    <button onclick="openLetter(7)">💌 Letter 7</button>
+    <button onclick="openLetter(8)">💌 Letter 8</button>
+    <button onclick="openLetter(9)">💌 Letter 9</button>
+    <button onclick="openLetter(10)">💌 Letter 10</button>
+    <button onclick="openLetter(11)">💌 Letter 11</button>
+    <button onclick="openLetter(12)">💌 Letter 12</button>
+    <button onclick="openLetter(13)">💌 Letter 13</button>
+    <button onclick="openLetter(14)">💌 Letter 14</button>
+    <button onclick="openLetter(15)">💌 Letter 15</button>
+    <button onclick="openLetter(16)">💌 Letter 16</button>
+    <button onclick="openLetter(17)">💌 Letter 17</button>
+    <button onclick="openLetter(18)">💌 Letter 18</button>
+  </div>
+
+  <!-- Display area for letters -->
+  <div id="letterDisplay" class="letter-box"></div>
+
+  <!-- Image Gallery -->
+  <section class="gallery">
+    <h2>📷 Our Memories</h2>
+    <div class="images">
+      <img src="images/img1.jpg" />
+      <img src="images/img2.jpg" />
+      <img src="images/img3.jpg" />
+      <img src="images/img4.jpg" />
+      <img src="images/img5.jpg" />
+      <img src="images/img6.jpg" />
+      <img src="images/img7.jpg" />
+      <img src="images/img8.jpg" />
+      <img src="images/img9.jpg" />
+      <img src="images/img10.jpg" />
+    </div>
+  </section>
+
+  <!-- Cute GIFs Section -->
+  <section class="gifs">
+    <h2>💖 Some Cute Moments in GIFs</h2>
+    <div class="gif-gallery">
+      <img src="images/cute1.gif" />
+      <img src="images/cute2.gif" />
+      <img src="images/cute3.gif" />
+      <img src="images/cute4.gif" />
+      <img src="images/cute5.gif" />
+      <img src="images/cute6.gif" />
+      <img src="images/cute7.gif" />
+      <img src="images/cute8.gif" />
+      <img src="images/cute9.gif" />
+      <img src="images/cute10.gif" />
+    </div>
+  </section>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" src="music/birthday.mp3" loop autoplay></audio>
+
+  <!-- Optional Play Button -->
+  <button class="play-button" onclick="playMusic()">🎵 Play Music</button>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
